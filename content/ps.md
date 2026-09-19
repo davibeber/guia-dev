@@ -4,17 +4,7 @@
             <h1>CHEATSHEET</h1>
             <h2>para Powershell</h2>
         </div>
-        <p>O foco desse projeto está em concentrar todo meu conhecimento 
-        sobre o uso do terminal PowerShell, com o objetivo de criar 
-        um repositório de informações que possa ser consultado sempre 
-        que necessário. A ideia é que este projeto funcione como uma 
-        espécie de "segundo cérebro", onde posso armazenar e organizar 
-        meu conhecimento sobre o PowerShell de forma eficiente e 
-        acessível.
-        Além disso, o projeto também tem como objetivo servir como um 
-        recurso de referência para outros usuários que desejam aprender 
-        mais sobre o PowerShell, fornecendo informações úteis e 
-        práticas sobre o uso do terminal.</p>
+        <p></p>
     </section>
     <section class="basico">
         <h2>Comandos básicos de navegação entre pastas</h2>
@@ -27,3 +17,4 @@
             <li><alias>cls</alias> (clear) - Limpa a tela quando o terminal fica acumulado de textos.</li>
             <li><alias>del</alias> ou <alias>rm</alias> (remove item) - Remove arquivos permanentemente do sistema. Evite usar no começo até pegar mais prática com os comandos de leitura.</li>
         </ul>
+</main>
