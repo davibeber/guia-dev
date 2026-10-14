@@ -6,7 +6,6 @@ sandbox/
 
 changelog/
 
-
 public/javascript/
 public/logica
 
@@ -15,3 +14,4 @@ public/logica
 
 content/javascript.md
 content/logica.md
+content/css.md

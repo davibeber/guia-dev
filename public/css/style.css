@@ -27,16 +27,24 @@ header{
 }
 
 main{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: clamp(300px,80vw,720px);
 
+    margin: 0 auto;
     section{
         
         p{
             font-size: 1.125rem; /* Meu novo padrao pessoal para <p> */
             line-height: 1.6;
             padding: 0 10px;
-            text-align: left;
+            text-align: center;
+            align-items: center;
+
+
+            /* ! - Acredito que isso daqui está uma bagunça, preciso resolver (eu acho) */
             text-indent: 1.5rem;
             /* Habilita a quebra por sílabas de acordo com o idioma do texto */
             hyphens: auto;
@@ -71,6 +79,8 @@ main{
 }
 
 .basico {
+
+    
     h2{
         padding: 2rem 1rem 3rem 1rem;
     }
