@@ -35,7 +35,7 @@ for (const arquivo of arquivos) {
   // Com o uso de recursive:true, se não existir o caminho, ele criar
   // se ja existir, ele sobreescreve o arquivo, tendo vantagem de atualizar
 
-  fs.writeFileSync(`public/${nome}/${nome}_index.html`, pagina);
+  fs.writeFileSync(`public/${nome}/index.html`, pagina);
 
 
 
