@@ -5,12 +5,13 @@
             <h2>para Git</h2>
         </div>
     </section>
-    <section class="basico">  <!-- ! - Trocar para isso aqui <section class=repositório> -->
+    <section class="basico">
+<!-- ! - Trocar para isso aqui <section class=repositório> -->
     <h2>Sicronização com o repositorio do GITHUB</h2>
         <p>
             Mesmo usando o Git com determinada frequência, é comum esquecer os comandos do setup inicial (especialmente os de conectar com a nuvem e o primeiro push). Este guia serve exatamente para não precisar reaprender o caminho toda vez.
         </p>
-        <ul>
+        <ul class="border-git">
             <li><alias>git </alias>init - inicia o repositorio local.</li>
             <li><alias>git </alias>status - Confere os arquivos detectados.</li>
             <li><alias>git </alias>add - Prepara os arquivos.</li>
@@ -19,9 +20,10 @@
             <li><alias>git </alias>branch -M main - Garante que a branch principal se chame `main`</li> 
             <li><alias>git </alias>push origin main - Sobe o código para a nuvem e conecta as branches.</li>
         </ul>
+    </section>
     <section class="basico">
         <h2>Comandos básicos do git</h2>
-        <ul>
+        <ul class="border-git">
             <li><alias>git </alias>init - Transforma a pasta num repositório.</li>
             <li><alias>git </alias>status - O seu mapa. Mostre o que mudou.</li>
             <li><alias>git </alias>add - Prepara os arquivos.</li>
@@ -31,7 +33,7 @@
     </section>
     <section class="basico">
         <h2>Histórico e Consulta</h2>
-        <ul>
+        <ul class="border-git">
             <li><alias>git </alias>status - O seu mapa. Mostre o que mudou.</li>
             <li><alias>git </alias>log : O histórico de viagens no tempo do seu projeto. É basicamente um registro de quem fez alteração e em que, com data e hora. É o "quem, quando e o quê" de tudo o que aconteceu no seu projeto.</li>
             <li><alias>git </alias>log --online :  a mesma função do comando anterior porem resumindo cada registro em uma unica linha. serve para **mostrar o histórico de commits de forma ultra resumida** (tudo em uma única linha por commit).</li>
@@ -39,7 +41,7 @@
     </section>
     <section class="basico">
         <h2>Baixar/Atualizar</h2>
-        <ul>
+        <ul class="border-git">
             <li><alias>git </alias>clone (chave SSH)</li>
             <li><alias>git </alias>pull  Puxa as alterações de um repositório remoto e as mescla (_merges_) no repositório local.</li>
             <li><alias>git </alias> fetch - Recupera os dados mais recentes de um repositório remoto — mas **não integra** nenhum desses novos dados aos seus arquivos de trabalho locais. Verificar e baixar as atualizações da nuvem de forma isolada (sem alterar seus arquivos atuais).
@@ -49,7 +51,7 @@
     </section>
     <section class="basico">
         <h2>Gerenciamento de Branches / Ramificações</h2>
-        <ul>
+        <ul class="border-git">
             <li><alias>git </alias>checkout -b feature/exemplo_teste</li>
             <li><alias>git </alias>checkout - Alterna para a branch especificada, ou seja, esse comando pula para outras ramificações</li>
             <li><alias>git </alias>branch - Lista todas as branches (ramificações), cria uma nova branch com um nome especificado e confirma se ela foi criada.</li>
@@ -59,7 +61,7 @@
     </section>
     <section class="basico">
         <h2>Outros comandos git que preciso organizar</h2>
-        <ul>          
+        <ul class="border-git">
             <li><alias>git </alias>push -u origin feature/exemplo_teste</li>
             <li><alias>git </alias>remote - configura a ponte entre o repositorio local (dispositivo) e o repositorio remoto na nuvem (GITHUB como forte exemplo)</li>
             <li><alias>git </alias>remote -v : verifica o nome do repositorio em que seu projeto está alocado, de forma bem detalhada (-v, sem ele apareceria só como padrao o "origin").</li>

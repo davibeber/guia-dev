@@ -2,16 +2,22 @@
 
 # Pastas
 node_modules/
+idea/
 sandbox/
 
-changelog/
 
 public/javascript/
 public/logica
-
+public/css/index.html
+public/vsCode
+public/changelog
 
 # arquivos
 
 content/javascript.md
 content/logica.md
 content/css.md
+content/vsCode.md
+content/changelog.md
+
+text.md
