@@ -6,6 +6,8 @@
 
 Repositório criado para centralizar comandos, atalhos e sintaxes essenciais de uso diário na rotina de desenvolvimento. Serve como um guia de consulta rápida para produtividade no terminal e ferramentas de versionamento.
 
+**Projeto contínuo, atualizado conforme meus estudos**
+
 ## Módulos Atuais & Planejados
 
 - [x] **PowerShell:** Comandos essenciais de navegação e manipulação.
